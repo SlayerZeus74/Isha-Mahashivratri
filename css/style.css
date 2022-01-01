@@ -1,0 +1,174 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: #DDD;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1.75rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Merriweather';
+  color:#ffa735;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+h2{
+  color: #ca4e2a;
+}
+
+h1 {
+
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 37.5rem;
+  margin: 6.25rem auto;
+
+}
+.Adiyogi{
+  line-height: 0;
+}
+
+/* aside styles */
+
+aside.right{
+   float: right;
+}
+
+.left{
+    float: left;
+}
+
+
+/* images */
+
+.Adiyogi img{
+  width: 100%;
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+
+aside{
+  margin-right: 1.875px;
+}
+
+/* Section */
+
+
+section.intro, section.contact{
+  padding: 2.5rem;
+}
+
+.intro p{
+  color: white;
+}
+
+.contact{
+  color: black;
+}
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url('../images/pexels-neale-lasalle-631477.jpg');
+  font-family: 'Open Sans', arial, sans-serif;
+
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer{
+  
+  
+  padding: 5px;
+  font-size: 20px;
+  background: #ede1cb;
+  border-radius: 0 0 1.25rem 1.25rem;
+  color: black;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #ca4e2a;
+ 
+  
+}
+section:nth-child(2) {
+  background: #151927;
+}
+
+section:nth-child(3) {
+  background: #ede1cb;
+}
+
+section:nth-child(4) {
+  background: #151927;
+}
+
+section:nth-child(6) {
+  background: #ede1cb;
+}
+
+ p address{
+  font-style: italic;
+}

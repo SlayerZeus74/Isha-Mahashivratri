@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.Adiyogi img{
+    border-radius: 0;
+}
+aside.right, aside.left{
+    text-align: center;
+    float: inherit;
+}
+
+footer{
+    border-radius: 0;
+}
+.ytvideo{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
